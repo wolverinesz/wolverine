@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.wolverine" name="Wolverine repo" version="1.0" provider-name="Cyclop">
+    <extension point="xbmc.addon.repository" name="Wolverine repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/wolverinesz/wolverine/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/wolverinesz/wolverine/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/wolverinesz/wolverine/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Wolverine</summary>
+        <description>Wolverine</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
